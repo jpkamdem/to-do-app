@@ -26,3 +26,6 @@
   background: #000;
   color: #f7ca18;
 }
+.completed {
+  text-decoration: line-through;
+}
