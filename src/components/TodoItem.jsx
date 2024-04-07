@@ -5,6 +5,9 @@ export default function TodoItem({ item }) {
     <div className={styles.item}>
       <div className={styles.itemName}>
         {item}
+        <span>
+          <button className={styles.deleteBtn}>x</button>
+        </span>
         <hr className={styles.line} />
       </div>
     </div>
